@@ -4,5 +4,5 @@ project(Cmaketest)
 set(CMAKE_CXX_COMPILER /usr/bin/g++)
 
 
-add_executable(Cmaketest main.cpp
+add_executable(Cmaketest
         src/factorial.cpp)
